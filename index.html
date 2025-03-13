@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DS4200 Class Practice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="color: rgb(209, 120, 253);">Anya Solanki's Personal Website!</h1>
+    <h3>This is the homepage for my website</h3>
+
+    <button id = 'NB'>Go to another page</button>
+    <script>
+        const navigateButton = document.getElementById('NB');
+        navigateButton.addEventListener('click', function(){
+            window.location.href = 'test.html';
+        })
+    </script>
+
+    <p id = 'main'>Here is a short introduction about me:</p>
+    <p class = 'A'> 
+        My name is Anya Solanki, and I am currently a junior majoring in Data Science and Economics. I have always been drawn to numbers, patterns, and problem-solving, which led me to pursue data science, while my interest in financial systems and market behavior made economics a natural pairing. My academic journey has been shaped by hands-on learning experiences, including my co-op at Dell Technologies, where I worked on data analytics and process automation. I will also be working as a data engineer intern at Amazon this summer, which challenged me to deepen my understanding of data warehousing and SQL.  
+        
+        Beyond academics and work, I enjoy painting, baking, and watching movies. I find creativity to be a great balance to my analytical work, and I love spending time with friends and family, including my dog, Coco. Another area of interest for me is the ethical implications of AI, which I explored in my cybersecurity class last semester. AI is a powerful tool, but its impact on privacy, security, and fairness is often overlooked, which is why I enjoy discussing its broader implications. I look forward to learning more about AI, data science, and their applications in different industries.</p>
+    
+    <div class="contact-section">
+        <h2>Contact Me</h2>
+        <div class="contact-links">
+            <a href="mailto:solanki.an@northeastern.edu">Email Me</a>
+            <a href="https://www.linkedin.com/in/anyasolanki/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/anyasolanki/DS4200-Personal-Site" target="_blank">GitHub</a>
+        </div>
+    </div>
+
+    <br><br>
+
+    <img src="https://floridafurbabies.com/azure/sunshinestatepups/pups/274619144_677802036597829_6204185918565589547_n.jpg?w=557&h=557&mode=crop&autorotate=1" alt="Golden Doodle Picture" width = 500>
+
+
+</body>
+</html>
